@@ -1,0 +1,16 @@
+Added Component: Designator=TP6(TP)
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Info"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N (CT)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Web"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=#RST Pin=R3-2
+Added Pin To Net: NetName=#RST Pin=TP6-1
+Added Pin To Net: NetName=#RST Pin=U2-9
+Added Net: Name=#RST
+Added Member To Class: ClassName=DONGLE01 Member=Component TP6

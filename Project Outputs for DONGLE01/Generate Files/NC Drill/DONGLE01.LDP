@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Users\BENADUCE\Documents\GitHub\Dongle01\DONGLE01.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=dongle01-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=dongle01-slotholes.txt|DrillLayers=gtl,gbl

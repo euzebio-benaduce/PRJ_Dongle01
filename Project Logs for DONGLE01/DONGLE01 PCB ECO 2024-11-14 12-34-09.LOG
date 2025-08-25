@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=RTS Pin=JP3-3
+Change Component Comment : Designator=U2 Old Comment=CP2102 USB2UART BRIDGE New Comment=CP2102N-A02-GQFN28R
+Change component parameters: Designator = "U2" ("U2"); Footprint = "QFN50P500X500X80_HS-29N CP2102N"; UniqueID = "\SQPRLBUF" ("\SQPRLBUF")
+Change component parameters (AddParameter): Name = "HelpURL"; Value = "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Info"; Value = "CP2102N-A02-GQFN28R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Silicon Labs"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "CP2102N-A02-GQFN28R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N"; Value = "336-5890-2-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N (CT)"; Value = "336-5890-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Web"; Value = "https://www.digikey.com/en/products/detail/silicon-labs/CP2102N-A02-GQFN28R/9863480"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "CP2102N-A02-GQFN28R"; VariantName = "[No Variations]"
+Added Component: Designator=JP4(JMP-3-PTH-180)
+Add component (AddParameter): Name = "HelpURL"; Value = "https://www.we-online.com/components/products/datasheet/61300311121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Info"; Value = "0.1" Pin header 1x3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "61300311121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N"; Value = "732-5316-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N (CT)"; Value = "732-5316-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Web"; Value = "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Header 3 Pin"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RTS Pin=JP4-1
+Change Net Name : Old Net Name=CTS.BOOT New Net Name=BOOT.CTS
+Change Net Name : Old Net Name=ENABLE New Net Name=ENA
+Change Net Name : Old Net Name=RTS.ENABLE New Net Name=ENA.RTS.485
+Added Pin To Net: NetName=NetJP3_3 Pin=JP3-3
+Added Pin To Net: NetName=NetJP3_3 Pin=JP4-2
+Added Net: Name=NetJP3_3
+Added Pin To Net: NetName=RS485 Pin=JP4-3
+Added Pin To Net: NetName=RS485 Pin=U2-17
+Added Net: Name=RS485
+Added Member To Class: ClassName=DONGLE01 Member=Component JP4 Header 3 Pin
