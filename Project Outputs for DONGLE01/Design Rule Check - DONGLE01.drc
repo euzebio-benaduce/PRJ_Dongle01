@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : D:\Users\BENADUCE\Documents\GitHub\Dongle01\DONGLE01.PcbDoc
+PCB File : D:\#PCB#\PRJ_Dongle01\DONGLE01.PcbDoc
 Date     : 2025-08-25
-Time     : 10:50:40
+Time     : 17:45:32
 
 Processing Rule : Clearance Constraint (Gap=5mil) (not InNetClass('USBI') and not InNetClass('USBE')),(All)
 Rule Violations :0

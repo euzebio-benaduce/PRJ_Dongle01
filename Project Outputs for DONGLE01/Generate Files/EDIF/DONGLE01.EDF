@@ -6,7 +6,7 @@
   )
   (status
     (written
-      (timeStamp 2025 8 25 10 51 42)
+      (timeStamp 2025 8 25 18 10 21)
       (program "Altium Designer - EDIF For PCB"
         (version "1.0.0")
       )
@@ -46,6 +46,17 @@
         (interface
           (port A (direction INOUT))
           (port K (direction INOUT))
+        )
+      )
+    )
+    (cell (rename WE_TVS_SOT23_3L_824021 "WE-TVS_SOT23-3L_824021")
+      (cellType GENERIC)
+      (view netListView
+        (viewType NETLIST)
+        (interface
+          (port (rename &1 "1") (direction INOUT))
+          (port (rename &2 "2") (direction INOUT))
+          (port (rename &3 "3") (direction INOUT))
         )
       )
     )
@@ -600,6 +611,72 @@
             (Property PhysicalPath (String "DONGLE01" ))
             (Property ChannelOffset (String "10" ))
           )
+          (Instance D2
+            (viewRef NetlistView
+              (cellRef WE_TVS_SOT23_3L_824021
+                (LibraryRef COMPONENT_LIB)
+              )
+            )
+            (Property Comment (String "7V TVS" ))
+            (Property (rename Component_Kind "Component Kind") (String "Standard" ))
+            (Property Datasheet (String "https://www.we-online.com/components/products/datasheet/824021.pdf" ))
+            (Property Description (String "7V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-3" ))
+            (Property Footprint (String "WE-TVS_SOT23-3L" ))
+            (Property (rename Ibis_Model "Ibis Model") (String "" ))
+            (Property Info (String "TVS Diode" ))
+            (Property (rename Library_Name "Library Name") (String "My_Library.IntLib" ))
+            (Property (rename Library_Reference "Library Reference") (String "WE-TVS_SOT23-3L_824021" ))
+            (Property Manufacturer (String "Würth Elektronik" ))
+            (Property (rename Manufacturer_P_N "Manufacturer P/N") (String "824021" ))
+            (Property PCB3D (String "" ))
+            (Property (rename Pin_Info "Pin Info") (String "" ))
+            (Property RefDes (String "RefDes" ))
+            (Property (rename Signal_Integrity "Signal Integrity") (String "" ))
+            (Property Simulation (String "" ))
+            (Property Supplier (String "Digikey" ))
+            (Property (rename Supplier_P_N__Cut_Tape_ "Supplier P/N (Cut Tape)") (String "732-4468-1-ND" ))
+            (Property (rename Supplier_P_N__Tape_&_Reel_ "Supplier P/N (Tape & Reel)") (String "732-4468-2-ND" ))
+            (Property (rename Supplier_Web_Page "Supplier Web Page") (String "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/824021/3900544" ))
+            (Property Value (String "7V TVS" ))
+            (Property Footprint (String "WE-TVS_SOT23-3L" ))
+            (Property Description (String "7V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-3" ))
+            (Property UniqueId (String "\KYAZCCQN" ))
+            (Property PhysicalPath (String "DONGLE01" ))
+            (Property ChannelOffset (String "11" ))
+          )
+          (Instance D3
+            (viewRef NetlistView
+              (cellRef WE_TVS_SOT23_3L_824021
+                (LibraryRef COMPONENT_LIB)
+              )
+            )
+            (Property Comment (String "7V TVS" ))
+            (Property (rename Component_Kind "Component Kind") (String "Standard" ))
+            (Property Datasheet (String "https://www.we-online.com/components/products/datasheet/824021.pdf" ))
+            (Property Description (String "7V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-3" ))
+            (Property Footprint (String "WE-TVS_SOT23-3L" ))
+            (Property (rename Ibis_Model "Ibis Model") (String "" ))
+            (Property Info (String "TVS Diode" ))
+            (Property (rename Library_Name "Library Name") (String "My_Library.IntLib" ))
+            (Property (rename Library_Reference "Library Reference") (String "WE-TVS_SOT23-3L_824021" ))
+            (Property Manufacturer (String "Würth Elektronik" ))
+            (Property (rename Manufacturer_P_N "Manufacturer P/N") (String "824021" ))
+            (Property PCB3D (String "" ))
+            (Property (rename Pin_Info "Pin Info") (String "" ))
+            (Property RefDes (String "RefDes" ))
+            (Property (rename Signal_Integrity "Signal Integrity") (String "" ))
+            (Property Simulation (String "" ))
+            (Property Supplier (String "Digikey" ))
+            (Property (rename Supplier_P_N__Cut_Tape_ "Supplier P/N (Cut Tape)") (String "732-4468-1-ND" ))
+            (Property (rename Supplier_P_N__Tape_&_Reel_ "Supplier P/N (Tape & Reel)") (String "732-4468-2-ND" ))
+            (Property (rename Supplier_Web_Page "Supplier Web Page") (String "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/824021/3900544" ))
+            (Property Value (String "7V TVS" ))
+            (Property Footprint (String "WE-TVS_SOT23-3L" ))
+            (Property Description (String "7V Clamp 15A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-3" ))
+            (Property UniqueId (String "\UYGKNSMW" ))
+            (Property PhysicalPath (String "DONGLE01" ))
+            (Property ChannelOffset (String "12" ))
+          )
           (Instance J1
             (viewRef NetlistView
               (cellRef &12401598E4_2A
@@ -631,7 +708,7 @@
             (Property Description (String "USB-C (USB TYPE-C) USB 3.2 Gen 2 (USB 3.1 Gen 2, Superspeed + (USB 3.1)) Receptacle Connector 24 Position Surface Mount, Right Angle; Through Hole" ))
             (Property UniqueId (String "\DODIOYAP" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "11" ))
+            (Property ChannelOffset (String "13" ))
           )
           (Instance J2
             (viewRef NetlistView
@@ -664,7 +741,7 @@
             (Property Description (String "6 Position Wire to Board Terminal Block Horizontal with Board 0.100" (2.54mm) Through Hole" ))
             (Property UniqueId (String "\QYPBDPJU" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "12" ))
+            (Property ChannelOffset (String "14" ))
           )
           (Instance JP1
             (viewRef NetlistView
@@ -697,7 +774,7 @@
             (Property Description (String "3 Pin Jumper" ))
             (Property UniqueId (String "\EWHCHRCT" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "13" ))
+            (Property ChannelOffset (String "15" ))
           )
           (Instance JP2
             (viewRef NetlistView
@@ -730,7 +807,7 @@
             (Property Description (String "3 Pin Jumper" ))
             (Property UniqueId (String "\LKQUFHFP" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "14" ))
+            (Property ChannelOffset (String "16" ))
           )
           (Instance JP3
             (viewRef NetlistView
@@ -763,7 +840,7 @@
             (Property Description (String "3 Pin Jumper" ))
             (Property UniqueId (String "\DFOSOBKB" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "15" ))
+            (Property ChannelOffset (String "17" ))
           )
           (Instance JP4
             (viewRef NetlistView
@@ -796,7 +873,7 @@
             (Property Description (String "3 Pin Jumper" ))
             (Property UniqueId (String "\IGVTLTZP" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "16" ))
+            (Property ChannelOffset (String "18" ))
           )
           (Instance JS1
             (viewRef NetlistView
@@ -829,7 +906,7 @@
             (Property Description (String "2 (1 x 2) Position Shunt Connector Open Top, Grip 0.100" (2.54mm) Gold" ))
             (Property UniqueId (String "\LFKGYALN" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "17" ))
+            (Property ChannelOffset (String "19" ))
           )
           (Instance JS2
             (viewRef NetlistView
@@ -862,7 +939,7 @@
             (Property Description (String "2 (1 x 2) Position Shunt Connector Open Top, Grip 0.100" (2.54mm) Gold" ))
             (Property UniqueId (String "\GHYDCXNI" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "18" ))
+            (Property ChannelOffset (String "20" ))
           )
           (Instance JS3
             (viewRef NetlistView
@@ -895,7 +972,7 @@
             (Property Description (String "2 (1 x 2) Position Shunt Connector Open Top, Grip 0.100" (2.54mm) Gold" ))
             (Property UniqueId (String "\GHYBIWEJ" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "19" ))
+            (Property ChannelOffset (String "21" ))
           )
           (Instance JS4
             (viewRef NetlistView
@@ -928,7 +1005,7 @@
             (Property Description (String "2 (1 x 2) Position Shunt Connector Open Top, Grip 0.100" (2.54mm) Gold" ))
             (Property UniqueId (String "\NCLIHVPB" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "20" ))
+            (Property ChannelOffset (String "22" ))
           )
           (Instance Q1
             (viewRef NetlistView
@@ -961,7 +1038,7 @@
             (Property Description (String "Bipolar (BJT) Transistor NPN 80 V 100 mA 60MHz 225 mW Surface Mount SOT-23-3 (TO-236)" ))
             (Property UniqueId (String "\DXKNUMTQ" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "21" ))
+            (Property ChannelOffset (String "23" ))
           )
           (Instance Q2
             (viewRef NetlistView
@@ -994,7 +1071,7 @@
             (Property Description (String "Bipolar (BJT) Transistor NPN 80 V 100 mA 60MHz 225 mW Surface Mount SOT-23-3 (TO-236)" ))
             (Property UniqueId (String "\ASYCDQAO" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "22" ))
+            (Property ChannelOffset (String "24" ))
           )
           (Instance R1
             (viewRef NetlistView
@@ -1027,7 +1104,7 @@
             (Property Description (String "180 Ohms ±1% 0.25W, 1/4W Chip Resistor 0805 (2012 Metric) Anti-Sulfur Thin Film" ))
             (Property UniqueId (String "\ZKEMQWIM" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "23" ))
+            (Property ChannelOffset (String "25" ))
           )
           (Instance R2
             (viewRef NetlistView
@@ -1060,7 +1137,7 @@
             (Property Description (String "21 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film" ))
             (Property UniqueId (String "\IVVORZTH" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "24" ))
+            (Property ChannelOffset (String "26" ))
           )
           (Instance R3
             (viewRef NetlistView
@@ -1093,7 +1170,7 @@
             (Property Description (String "1.07 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film" ))
             (Property UniqueId (String "\HAYDZIRI" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "25" ))
+            (Property ChannelOffset (String "27" ))
           )
           (Instance R4
             (viewRef NetlistView
@@ -1126,7 +1203,7 @@
             (Property Description (String "48.7 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film" ))
             (Property UniqueId (String "\HNQOXERL" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "26" ))
+            (Property ChannelOffset (String "28" ))
           )
           (Instance R5
             (viewRef NetlistView
@@ -1159,7 +1236,7 @@
             (Property Description (String "5.1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film" ))
             (Property UniqueId (String "\YKWRUZIA" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "27" ))
+            (Property ChannelOffset (String "29" ))
           )
           (Instance R6
             (viewRef NetlistView
@@ -1192,7 +1269,7 @@
             (Property Description (String "5.1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film" ))
             (Property UniqueId (String "\FAMFTUIM" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "28" ))
+            (Property ChannelOffset (String "30" ))
           )
           (Instance R7
             (viewRef NetlistView
@@ -1225,7 +1302,7 @@
             (Property Description (String "10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film" ))
             (Property UniqueId (String "\FZZQJRVF" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "29" ))
+            (Property ChannelOffset (String "31" ))
           )
           (Instance R10
             (viewRef NetlistView
@@ -1258,7 +1335,7 @@
             (Property Description (String "10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film" ))
             (Property UniqueId (String "\KGUFCTJV" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "30" ))
+            (Property ChannelOffset (String "32" ))
           )
           (Instance T1
             (viewRef NetlistView
@@ -1291,7 +1368,7 @@
             (Property Description (String "2 Line Common Mode Choke Surface Mount 90 Ohms @ 100 MHz 370mA DCR 300mOhm" ))
             (Property UniqueId (String "\ENLIOZSI" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "31" ))
+            (Property ChannelOffset (String "33" ))
           )
           (Instance TP2
             (viewRef NetlistView
@@ -1323,7 +1400,7 @@
             (Property Footprint (String "TP" ))
             (Property UniqueId (String "\MGVDGFYD" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "32" ))
+            (Property ChannelOffset (String "34" ))
           )
           (Instance TP3
             (viewRef NetlistView
@@ -1355,7 +1432,7 @@
             (Property Footprint (String "TP" ))
             (Property UniqueId (String "\SWEVWUFT" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "33" ))
+            (Property ChannelOffset (String "35" ))
           )
           (Instance TP4
             (viewRef NetlistView
@@ -1387,7 +1464,7 @@
             (Property Footprint (String "TP" ))
             (Property UniqueId (String "\YJVMRHDC" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "34" ))
+            (Property ChannelOffset (String "36" ))
           )
           (Instance TP5
             (viewRef NetlistView
@@ -1419,7 +1496,7 @@
             (Property Footprint (String "TP" ))
             (Property UniqueId (String "\HBWLJQEI" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "35" ))
+            (Property ChannelOffset (String "37" ))
           )
           (Instance TP6
             (viewRef NetlistView
@@ -1451,7 +1528,7 @@
             (Property Footprint (String "TP" ))
             (Property UniqueId (String "\OIYPTFSK" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "36" ))
+            (Property ChannelOffset (String "38" ))
           )
           (Instance U1
             (viewRef NetlistView
@@ -1484,7 +1561,7 @@
             (Property Description (String "Clamp Ipp Tvs Diode Surface Mount SOT-143" ))
             (Property UniqueId (String "\QQNMDCDG" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "37" ))
+            (Property ChannelOffset (String "39" ))
           )
           (Instance U2
             (viewRef NetlistView
@@ -1517,7 +1594,7 @@
             (Property Description (String "USB Bridge, USB to UART USB 2.0 UART Interface 28-QFN (5x5)" ))
             (Property UniqueId (String "\SQPRLBUF" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "38" ))
+            (Property ChannelOffset (String "40" ))
           )
           (Instance U3
             (viewRef NetlistView
@@ -1550,7 +1627,7 @@
             (Property Description (String "Linear Voltage Regulator IC Positive Fixed 1 Output 600mA TSOT-23-5" ))
             (Property UniqueId (String "\ZOTECWRX" ))
             (Property PhysicalPath (String "DONGLE01" ))
-            (Property ChannelOffset (String "39" ))
+            (Property ChannelOffset (String "41" ))
           )
           (Net VBUS
             (Joined 
@@ -1582,12 +1659,14 @@
           )
           (Net TXD
             (Joined 
+                (PortRef &1 (InstanceRef D3))
                 (PortRef &5 (InstanceRef J2))
                 (PortRef &26 (InstanceRef U2))
             )
           )
           (Net RXD
             (Joined 
+                (PortRef &2 (InstanceRef D3))
                 (PortRef &4 (InstanceRef J2))
                 (PortRef &25 (InstanceRef U2))
             )
@@ -1658,6 +1737,8 @@
                 (PortRef &2 (InstanceRef C6))
                 (PortRef &2 (InstanceRef C7))
                 (PortRef &2 (InstanceRef C8))
+                (PortRef &3 (InstanceRef D2))
+                (PortRef &3 (InstanceRef D3))
                 (PortRef A1 (InstanceRef J1))
                 (PortRef A12 (InstanceRef J1))
                 (PortRef B1 (InstanceRef J1))
@@ -1675,6 +1756,7 @@
           )
           (Net (rename ENA_RTS_485 "ENA.RTS.485")
             (Joined 
+                (PortRef &1 (InstanceRef D2))
                 (PortRef &3 (InstanceRef J2))
                 (PortRef &2 (InstanceRef JP3))
             )
@@ -1754,6 +1836,7 @@
           )
           (Net (rename BOOT_CTS "BOOT.CTS")
             (Joined 
+                (PortRef &2 (InstanceRef D2))
                 (PortRef &2 (InstanceRef J2))
                 (PortRef &2 (InstanceRef JP2))
             )

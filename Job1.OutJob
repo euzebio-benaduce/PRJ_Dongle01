@@ -139,7 +139,7 @@ OutputEnabled7_OutputMedium2=8
 OutputEnabled7_OutputMedium3=0
 OutputEnabled7_OutputMedium4=0
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.10|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.76|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration7_Name1=OutputConfigurationParameter1
 Configuration7_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\#PCB#\#DONGLE01\DONGLE01.PcbDoc
 Configuration7_Name2=OutputConfigurationParameter2
@@ -408,7 +408,7 @@ ShowComponentParameters2=0
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=1.3
-OutputFilePath3=C:\#PCB#\PRJ_Dongle01\Project Outputs for DONGLE01\Generate Files\
+OutputFilePath3=D:\#PCB#\PRJ_Dongle01\Project Outputs for DONGLE01\Generate Files\
 ReleaseManaged3=1
 OutputBasePath3=Project Outputs for DONGLE01
 OutputPathMedia3=[Media Type]
@@ -462,7 +462,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=C:\DockVision\V2\DK23-PLC\Project Outputs for DK23-V2-PLC\PDF\
 OpenOutputs2=1
-RelativeOutputPath3=C:\#PCB#\PRJ_Dongle01\Project Outputs for DONGLE01\Generate Files\
+RelativeOutputPath3=D:\#PCB#\PRJ_Dongle01\Project Outputs for DONGLE01\Generate Files\
 OpenOutputs3=0
 AddToProject3=1
 TimestampFolder3=0

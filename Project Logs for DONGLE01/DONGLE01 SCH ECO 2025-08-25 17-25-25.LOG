@@ -1,0 +1,12 @@
+Removed Parameter MF:{'manufacturer': u'Wurth Electronics'} from Part D2
+Removed Parameter MF:{'manufacturer': u'Wurth Electronics'} from Part D3
+Added Parameter RefDes= to Part D2
+Added Parameter RefDes= to Part D3
+Added Parameter Supplier= to Part D2
+Added Parameter Supplier= to Part D3
+Added Parameter Supplier P/N (Cut Tape)= to Part D2
+Added Parameter Supplier P/N (Cut Tape)= to Part D3
+Added Parameter Supplier P/N (Tape & Reel)= to Part D2
+Added Parameter Supplier P/N (Tape & Reel)= to Part D3
+Added Parameter Supplier Web Page= to Part D2
+Added Parameter Supplier Web Page= to Part D3
