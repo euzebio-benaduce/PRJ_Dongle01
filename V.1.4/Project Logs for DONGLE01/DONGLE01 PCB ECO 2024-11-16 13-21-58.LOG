@@ -1,0 +1,11 @@
+Change component parameters: Designator = "J1" ("J1"); Footprint = "AMPHENOL_12401598E4#2A"; UniqueID = "\DODIOYAP" ("\DODIOYAP")
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://www.amphenol-cs.com/media/wysiwyg/files/drawing/12401598xxx2a.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Info"; Value = "USB Type-C SMD Receptacle"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Amphenol ICC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "12401598E4#2A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N (Cut Tape)"; Value = "12401598E4#2ACT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N (Tape & Reel)"; Value = "12401598E4#2ATR-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Web Page"; Value = "https://www.digikey.com/en/products/detail/amphenol-icc-commercial-products/12401598e4-2a/6051823"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "CONN RCP USB3.1 TYPEC 24P SMD RA"; VariantName = "[No Variations]"

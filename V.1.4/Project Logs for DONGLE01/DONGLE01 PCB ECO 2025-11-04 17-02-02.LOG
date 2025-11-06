@@ -1,0 +1,63 @@
+Removed Pin From Net: NetName=GND Pin=J1-A1
+Removed Pin From Net: NetName=VBUS Pin=J1-A4
+Removed Pin From Net: NetName=VBUS Pin=J1-A9
+Removed Pin From Net: NetName=GND Pin=J1-A12
+Removed Pin From Net: NetName=GND Pin=J1-B1
+Removed Pin From Net: NetName=VBUS Pin=J1-B4
+Removed Pin From Net: NetName=VBUS Pin=J1-B9
+Removed Pin From Net: NetName=GND Pin=J1-B12
+Change Component Footprint: Designator=J1 Old Footprint=AMPHENOL_12401598E4#2A New Footprint=GCT_USB4105-GF-A-060
+Change Component Comment : Designator=C1 Old Comment=47uF New Comment=4,7uF
+Change Component Comment : Designator=C2 Old Comment=47uF New Comment=4,7uF
+Change Component Comment : Designator=J1 Old Comment=12401598E4#2A New Comment=USB4105-GF-A-060
+Change component parameters: Designator = "C1" ("C1"); Footprint = "C0805"; UniqueID = "\LWJFHZAQ" ("\LWJFHZAQ")
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Info"; Value = "25V 5% X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "C0805C475J3RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N (CT)"; Value = "399-C0805C475J3RACTUCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N (TR)"; Value = "399-C0805C475J3RACTUTR-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Web Page"; Value = "https://www.digikey.com.br/pt/products/detail/kemet/C0805C475J3RACTU/12700961"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4,7uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C2" ("C2"); Footprint = "C0805"; UniqueID = "\OBLCJPHM" ("\OBLCJPHM")
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Info"; Value = "25V 5% X7R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "C0805C475J3RACTU"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N (CT)"; Value = "399-C0805C475J3RACTUCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N (TR)"; Value = "399-C0805C475J3RACTUTR-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Web Page"; Value = "https://www.digikey.com.br/pt/products/detail/kemet/C0805C475J3RACTU/12700961"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4,7uF"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J1" ("J1"); Footprint = "AMPHENOL_12401598E4#2A"; UniqueID = "\WQULBWGF" ("\WQULBWGF")
+Change component parameters (AddParameter): Name = "Alias1"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://www.mouser.com/catalog/specsheets/Global_Connector_Technology_usb4105.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Info"; Value = "USB4105 - Type C USB 2.0 Connector"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Global Connector Technology"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "USB4105-GF-A-060"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N (CT)"; Value = "2073-USB4105-GF-ACT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N (DR)"; Value = "2073-USB4105-GF-ADKR-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N (TR)"; Value = "2073-USB4105-GF-ATR-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Web"; Value = "https://www.digikey.com.br/pt/products/detail/gct/USB4105-GF-A/11198441"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "USB4105-GF-A-060"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J1-A1_B12
+Added Pin To Net: NetName=VBUS Pin=J1-A4_B9
+Added Pin To Net: NetName=GND Pin=J1-B1_A12
+Added Pin To Net: NetName=VBUS Pin=J1-B4_A9
+Change Net Color : Old Net Color=Aqua New Net Color=Default
+Change Net Color : Old Net Color=Aqua New Net Color=Default
+Change Net Color : Old Net Color=Aqua New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 153, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 153, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(116, 27, 71) New Net Color=Default
+Change Net Color : Old Net Color=Red New Net Color=Default
+Change Net Color : Old Net Color=RGB(56, 118, 29) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 153, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 153, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(153, 0, 255) New Net Color=Default
+Change Net Color : Old Net Color=Lime New Net Color=Default

@@ -1,0 +1,22 @@
+Added Component: Designator=D2(WE-TVS_SOT23-3L)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "{'manufacturer': u'Wurth Electronics'}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "824021"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D3(WE-TVS_SOT23-3L)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "{'manufacturer': u'Wurth Electronics'}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "824021"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ENA.RTS.485 Pin=D2-1
+Added Pin To Net: NetName=BOOT.CTS Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D2-3
+Added Pin To Net: NetName=TXD Pin=D3-1
+Added Pin To Net: NetName=RXD Pin=D3-2
+Added Pin To Net: NetName=GND Pin=D3-3
+Added Member To Class: ClassName=DONGLE01 Member=Component D2 WE-TVS_SOT23-3L_824021
+Added Member To Class: ClassName=DONGLE01 Member=Component D3 WE-TVS_SOT23-3L_824021
