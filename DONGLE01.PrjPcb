@@ -50,23 +50,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=DONGLE01.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=POPVTCBH
-
-[Document2]
 DocumentPath=DONGLE01.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -83,75 +66,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document3]
-DocumentPath=DONGLE01.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WMYCNDWO
-
-[Document4]
-DocumentPath=Job1.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document5]
-DocumentPath=Assembly.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QMBRBFOR
-
-[Document6]
-DocumentPath=Fabrication.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KFPNZPPT
-
-[Document7]
+[Document2]
 DocumentPath=README.md
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,171 +82,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[Document8]
-DocumentPath=CAMtastic1.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\BOM\Bill of Materials-DONGLE01.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\BOM\Bill of Materials Tech-DONGLE01.xlsx
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\NC Drill\DONGLE01-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\NC Drill\DONGLE01-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\NC Drill\DONGLE01.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\AutoCAD PCB\DONGLE01.DWG
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\EDIF\DONGLE01.EDF
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM4
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM5
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM7
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM13
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM15
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM16
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\DRC\DONGLE01.html
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\ERC\DONGLE01.html
-DItemRevisionGUID=
-
-[GeneratedDocument31]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\PCB 3D Print\DONGLE01.jpg
-DItemRevisionGUID=
-
-[GeneratedDocument32]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\NC Drill\DONGLE01.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument33]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\PCB 3D Print\DONGLE01.png
-DItemRevisionGUID=
-
-[GeneratedDocument34]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.REP
-DItemRevisionGUID=
-
-[GeneratedDocument35]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\ExportSTEP\DONGLE01.step
-DItemRevisionGUID=
-
-[GeneratedDocument36]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Pick Place\Pick Place for DONGLE01.csv
-DItemRevisionGUID=
-
-[GeneratedDocument37]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Pick Place\Pick Place for DONGLE01.txt
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -1030,6 +780,15 @@ Type147=1
 Type148=1
 Type149=1
 Type150=1
+Type151=1
+Type152=1
+Type153=1
+Type154=1
+Type155=1
+Type156=1
+Type157=1
+Type158=1
+Type159=1
 
 [Difference Levels]
 Type1=1
@@ -1113,6 +872,12 @@ Type78=1
 Type79=1
 Type80=1
 Type81=1
+Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1269,6 +1034,15 @@ Type151=2
 Type152=1
 Type153=1
 Type154=0
+Type155=0
+Type156=0
+Type157=0
+Type158=0
+Type159=0
+Type160=0
+Type161=0
+Type162=1
+Type163=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
