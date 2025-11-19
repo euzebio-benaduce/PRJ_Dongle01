@@ -6,7 +6,7 @@
   )
   (status
     (written
-      (timeStamp 2025 11 4 22 7 33)
+      (timeStamp 2025 11 18 20 0 1)
       (program "Altium Designer - EDIF For PCB"
         (version "1.0.0")
       )
@@ -1881,14 +1881,18 @@
                 (PortRef &3 (InstanceRef T1))
                 (PortRef &4 (InstanceRef U2))
             )
+            (Property ClassName (String "USBi" ))
             (Property DifferentialPair (String "True" ))
+            (Property Rule (String "Differential Pairs Routing [Pref Gap = 4.506mil    Min Gap  = 4.506mil    Max Gap  = 4.506milPref Width = 9mil    Min Width  = 9mil    Max Width  = 9mil]" ))
           )
           (Net DI_N
             (Joined 
                 (PortRef &2 (InstanceRef T1))
                 (PortRef &5 (InstanceRef U2))
             )
+            (Property ClassName (String "USBi" ))
             (Property DifferentialPair (String "True" ))
+            (Property Rule (String "Differential Pairs Routing [Pref Gap = 4.506mil    Min Gap  = 4.506mil    Max Gap  = 4.506milPref Width = 9mil    Min Width  = 9mil    Max Width  = 9mil]" ))
           )
           (Net DE_P
             (Joined 
@@ -1897,7 +1901,9 @@
                 (PortRef &4 (InstanceRef T1))
                 (PortRef &3 (InstanceRef U1))
             )
+            (Property ClassName (String "USB" ))
             (Property DifferentialPair (String "True" ))
+            (Property Rule (String "Differential Pairs Routing [Pref Gap = 4.506mil    Min Gap  = 4.506mil    Max Gap  = 4.506milPref Width = 9mil    Min Width  = 9mil    Max Width  = 9mil]" ))
           )
           (Net DE_N
             (Joined 
@@ -1906,7 +1912,9 @@
                 (PortRef &1 (InstanceRef T1))
                 (PortRef &2 (InstanceRef U1))
             )
+            (Property ClassName (String "USB" ))
             (Property DifferentialPair (String "True" ))
+            (Property Rule (String "Differential Pairs Routing [Pref Gap = 4.506mil    Min Gap  = 4.506mil    Max Gap  = 4.506milPref Width = 9mil    Min Width  = 9mil    Max Width  = 9mil]" ))
           )
           (Net CTS
             (Joined 

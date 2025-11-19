@@ -185,6 +185,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document9]
+DocumentPath=CAMtastic2.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document10]
+DocumentPath=CAMtastic3.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for DONGLE01\Generate Files\BOM\Bill of Materials-DONGLE01.xlsx
 DItemRevisionGUID=
@@ -194,147 +228,307 @@ DocumentPath=Project Outputs for DONGLE01\Generate Files\BOM\Bill of Materials T
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for DONGLE01\Design Rule Check - DONGLE01.html
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\comp_+_bot\components
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\NC Drill\DONGLE01-RoundHoles.TXT
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\comp_+_top\components
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\NC Drill\DONGLE01-SlotHoles.TXT
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\eda\data
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\NC Drill\DONGLE01.DRR
+DocumentPath=Project Outputs for DONGLE01\Design Rule Check - DONGLE01.html
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\AutoCAD PCB\DONGLE01.DWG
+DocumentPath=Project Outputs for DONGLE01\Generate Files\NC Drill\DONGLE01-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\EDIF\DONGLE01.EDF
+DocumentPath=Project Outputs for DONGLE01\Generate Files\NC Drill\DONGLE01-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.EXTREP
+DocumentPath=Project Outputs for DONGLE01\Generate Files\NC Drill\DONGLE01.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GBL
+DocumentPath=Project Outputs for DONGLE01\Generate Files\AutoCAD PCB\DONGLE01.DWG
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GBO
+DocumentPath=Project Outputs for DONGLE01\Generate Files\EDIF\DONGLE01.EDF
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GBP
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GBS
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM1
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM2
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM3
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM4
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM5
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM2
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM7
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM3
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM13
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM4
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM15
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM5
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM16
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM7
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GPB
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM13
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GPT
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM15
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GTL
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GM16
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GTO
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GTP
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GTS
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\DRC\DONGLE01.html
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\ERC\DONGLE01.html
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\PCB 3D Print\DONGLE01.jpg
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\NC Drill\DONGLE01.LDP
+DocumentPath=Project Outputs for DONGLE01\Generate Files\DRC\DONGLE01.html
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\PCB 3D Print\DONGLE01.png
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ERC\DONGLE01.html
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.REP
+DocumentPath=Project Outputs for DONGLE01\Generate Files\PCB 3D Print\DONGLE01.jpg
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\ExportSTEP\DONGLE01.step
+DocumentPath=Project Outputs for DONGLE01\Generate Files\NC Drill\DONGLE01.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for DONGLE01\Generate Files\Pick Place\Pick Place for DONGLE01.csv
+DocumentPath=Project Outputs for DONGLE01\Generate Files\PCB 3D Print\DONGLE01.png
 DItemRevisionGUID=
 
 [GeneratedDocument38]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Gerber\DONGLE01.REP
+DItemRevisionGUID=
+
+[GeneratedDocument39]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\DONGLE01.REP
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ExportSTEP\DONGLE01.step
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\board\features
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\bottom\features
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\bottom_3d_body\features
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\bottom_courtyard\features
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\bottom_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\bottom_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\bottom_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\bottom_surface_finish\features
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\comp_+_bot\features
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\comp_+_top\features
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\dielectric_1\features
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\drill_drawing_top-bottom\features
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\drill_guide_top-bottom\features
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\features
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\features
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\mechanical_10\features
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\mechanical_12\features
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\mechanical_13\features
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\mechanical_15\features
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\mechanical_16\features
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\top\features
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\top_3d_body\features
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\top_component_outline\features
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\top_courtyard\features
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\top_overlay\features
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\top_paste\features
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\top_solder\features
+DItemRevisionGUID=
+
+[GeneratedDocument68]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\top_surface_finish\features
+DItemRevisionGUID=
+
+[GeneratedDocument69]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\symbols\shape28dd8ede\features
+DItemRevisionGUID=
+
+[GeneratedDocument70]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\symbols\shapecb8619bc\features
+DItemRevisionGUID=
+
+[GeneratedDocument71]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\matrix\matrix
+DItemRevisionGUID=
+
+[GeneratedDocument72]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\netlists\cadnet\netlist
+DItemRevisionGUID=
+
+[GeneratedDocument73]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\Pick Place\Pick Place for DONGLE01.csv
+DItemRevisionGUID=
+
+[GeneratedDocument74]
 DocumentPath=Project Outputs for DONGLE01\Generate Files\Pick Place\Pick Place for DONGLE01.txt
+DItemRevisionGUID=
+
+[GeneratedDocument75]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\profile
+DItemRevisionGUID=
+
+[GeneratedDocument76]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\stephdr
+DItemRevisionGUID=
+
+[GeneratedDocument77]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\drill_non-plated_bottom-top\tools
+DItemRevisionGUID=
+
+[GeneratedDocument78]
+DocumentPath=Project Outputs for DONGLE01\Generate Files\ODB\odb\steps\pcb\layers\drill_plated_bottom-top\tools
 DItemRevisionGUID=
 
 [Configuration1]

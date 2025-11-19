@@ -1,0 +1,573 @@
+UNITS=INCH
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+@5 .placement_layer
+
+#
+#Component attribute text strings
+#
+&0 top
+
+# CMP 0
+CMP 13 2.95 3.195 90 N D3 7V_TVS ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.we-online.com/components/products/datasheet/824021.pdf'
+PRP Info 'TVS Diode'
+PRP Manufacturer 'Würth Elektronik'
+PRP Manufacturer_P/N '824021'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '732-4468-1-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '732-4468-2-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/824021/3900544'
+PRP Value '7V TVS'
+TOP 0 2.9086614 3.2324016 90 N 13 8 1
+TOP 1 2.9086614 3.1575984 90 N 12 12 2
+TOP 2 2.9913386 3.195 90 N 10 50 3
+#
+# CMP 1
+CMP 13 2.95 2.995 90 N D2 7V_TVS ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.we-online.com/components/products/datasheet/824021.pdf'
+PRP Info 'TVS Diode'
+PRP Manufacturer 'Würth Elektronik'
+PRP Manufacturer_P/N '824021'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '732-4468-1-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '732-4468-2-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/824021/3900544'
+PRP Value '7V TVS'
+TOP 0 2.9086614 3.0324016 90 N 4 4 1
+TOP 1 2.9086614 2.9575984 90 N 5 4 2
+TOP 2 2.9913386 2.995 90 N 10 52 3
+#
+# CMP 2
+CMP 5 2.6181103 2.9255513 90 N JP4 Header_3_Pin ;0=2,1=0.0000,5=0
+PRP Datasheet 'https://www.we-online.com/components/products/datasheet/61300311121.pdf'
+PRP Info '0.1_ Pin header 1x3'
+PRP Manufacturer 'Würth Elektronik'
+PRP Manufacturer_P/N '61300311121'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '732-5316-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '732-5316-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825'
+PRP Value 'Header 3 Pin'
+TOP 0 2.6181103 3.0255513 90 N 14 13 1
+TOP 1 2.6181103 2.9255513 90 N 3 3 2
+TOP 2 2.6181103 2.8255513 90 N 2 2 3
+#
+# CMP 3
+CMP 8 1.9875985 2.956693 270 N R2 21K ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf'
+PRP Info '1% 100 PPM'
+PRP Manufacturer 'YAGEO'
+PRP Manufacturer_P/N 'RC0805FR-0721KL'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '311-21.0KCRCT-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '311-21.0KCRTR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/yageo/RC0805FR-0721KL/727728'
+PRP Value '21K'
+TOP 0 1.9531497 2.956693 0 N 11 31 1
+TOP 1 2.0220473 2.9566931 0 N 15 7 2
+#
+# CMP 4
+CMP 5 2.4981103 3.2455513 90 N JP3 Header_3_Pin ;0=2,1=0.0000,5=0
+PRP Datasheet 'https://www.we-online.com/components/products/datasheet/61300311121.pdf'
+PRP Info '0.1_ Pin header 1x3'
+PRP Manufacturer 'Würth Elektronik'
+PRP Manufacturer_P/N '61300311121'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '732-5316-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '732-5316-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825'
+PRP Value 'Header 3 Pin'
+TOP 0 2.4981103 3.3455513 90 N 20 3 1
+TOP 1 2.4981103 3.2455513 90 N 4 5 2
+TOP 2 2.4981103 3.1455513 90 N 3 2 3
+#
+# CMP 5
+CMP 5 2.6181103 3.2455513 90 N JP2 Header_3_Pin ;0=2,1=0.0000,5=0
+PRP Datasheet 'https://www.we-online.com/components/products/datasheet/61300311121.pdf'
+PRP Info '0.1_ Pin header 1x3'
+PRP Manufacturer 'Würth Elektronik'
+PRP Manufacturer_P/N '61300311121'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '732-5316-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '732-5316-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825'
+PRP Value 'Header 3 Pin'
+TOP 0 2.6181103 3.3455513 90 N 27 3 1
+TOP 1 2.6181103 3.2455513 90 N 5 5 2
+TOP 2 2.6181103 3.1455513 90 N 6 4 3
+#
+# CMP 6
+CMP 5 2.4981103 2.9255513 90 N JP1 Header_3_Pin ;0=2,1=0.0000,5=0
+PRP Datasheet 'https://www.we-online.com/components/products/datasheet/61300311121.pdf'
+PRP Info '0.1_ Pin header 1x3'
+PRP Manufacturer 'Würth Elektronik'
+PRP Manufacturer_P/N '61300311121'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '732-5316-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '732-5316-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825'
+PRP Value 'Header 3 Pin'
+TOP 0 2.4981103 3.0255513 90 N 11 27 1
+TOP 1 2.4981103 2.9255513 90 N 7 2 2
+TOP 2 2.4981103 2.8255513 90 N 8 8 3
+#
+# CMP 7
+CMP 2 2.8181103 3.3305513 0 N AH2 Furo_de_Alinhamento ;0=2,1=0.0000,5=0
+PRP Datasheet ''
+PRP Info ''
+PRP Manufacturer ''
+PRP Manufacturer_P/N ''
+PRP RefDes 'RefDes'
+PRP Supplier ''
+PRP Supplier_P/N_(Cut_Tape) ''
+PRP Supplier_P/N_(Tape_&_Reel) ''
+PRP Supplier_Web_Page ''
+PRP Value ''
+TOP 0 2.8181103 3.3305513 0 N 0 8 1
+#
+# CMP 8
+CMP 2 1.3484252 2.8346457 0 N AH1 Furo_de_Alinhamento ;0=2,1=0.0000,5=0
+PRP Datasheet ''
+PRP Info ''
+PRP Manufacturer ''
+PRP Manufacturer_P/N ''
+PRP RefDes 'RefDes'
+PRP Supplier ''
+PRP Supplier_P/N_(Cut_Tape) ''
+PRP Supplier_P/N_(Tape_&_Reel) ''
+PRP Supplier_Web_Page ''
+PRP Value ''
+TOP 0 1.3484252 2.8346457 0 N 0 9 1
+#
+# CMP 9
+CMP 0 3.1581103 2.8405513 270 N J2 MPT_0,5/_6-2,54 ;0=2,1=0.0000,5=0
+PRP Datasheet 'https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-6-254-1725698?type=pdf'
+PRP Info 'Borne 6pos 6A e=2,54'
+PRP Manufacturer 'Phoenix Contact'
+PRP Manufacturer_P/N '1725698'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '277-1277-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '277-1277-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/phoenix-contact/1725698/267466'
+PRP Value 'MPT 0,5/ 6-2,54'
+TOP 0 3.1581103 2.8405513 270 N 7 3 1
+TOP 1 3.1581103 2.9405512 270 N 5 6 2
+TOP 2 3.1581103 3.0405513 270 N 4 6 3
+TOP 3 3.1581103 3.1405513 270 N 12 13 4
+TOP 4 3.1581103 3.2405513 270 N 13 9 5
+TOP 5 3.1581103 3.3405514 270 N 10 54 6
+#
+# CMP 10
+CMP 11 2.2080709 2.8877954 90 N U3 3.3V_600mA_PMIC ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.richtek.com/assets/product_file/RT9080/DS9080-05.pdf'
+PRP Info '3.3V 600mA PMIC'
+PRP Manufacturer 'Richtek USA Inc.'
+PRP Manufacturer_P/N 'RT9080-33GJ5'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '1028-1509-1-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '1028-1509-2-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/richtek-usa-inc/RT9080-33GJ5/6161634?s=N4IgTCBcDaIEoBUCcAGAHCgtAZmwcQCkBWEAXQF8g'
+PRP Value '3.3V 600mA PMIC'
+TOP 0 2.2450788 2.937008 90 N 11 20 1
+TOP 1 2.2080709 2.937008 90 N 10 55 2
+TOP 2 2.171063 2.937008 90 N 11 25 3
+TOP 3 2.171063 2.8385828 90 N 0 16 4
+TOP 4 2.2450788 2.8385828 90 N 8 6 5
+#
+# CMP 11
+CMP 3 2.3173229 2.8799214 180 N C8 2.2uF ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf'
+PRP Info 'MLCC'
+PRP Manufacturer 'KEMET'
+PRP Manufacturer_P/N 'C0805C225J4REC7800'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '399-C0805C225J4REC7800CT-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '399-C0805C225J4REC7800TR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/kemet/C0805C225J4REC7800/8643702?s=N4IgTCBcDaIMIAYAcCCscxlQKQCwCUBROAdhQRAF0BfIA'
+PRP Value '2.2uF'
+TOP 0 2.3173229 2.8454726 270 N 8 5 1
+TOP 1 2.3173229 2.9143702 270 N 10 56 2
+#
+# CMP 12
+CMP 3 2.1007874 2.8897638 0 N C7 1uF ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0805C105J4RACTU'
+PRP Info 'MLCC'
+PRP Manufacturer 'KEMET'
+PRP Manufacturer_P/N 'C0805C105J4RAC7800'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '399-C0805C105J4RAC7800CT-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '399-C0805C105J4RAC7800TR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/kemet/C0805C105J4RAC7800/2211759?s=N4IgTCBcDaIMIAYAcCCscCMaBSAWASgIJwDsKCIAugL5A'
+PRP Value '1uF'
+TOP 0 2.1007874 2.9242127 90 N 11 32 1
+TOP 1 2.1007875 2.855315 90 N 10 58 2
+#
+# CMP 13
+CMP 8 1.8927165 3.2627953 0 N R1 180R ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.seielect.com/catalog/sei-rncp.pdf'
+PRP Info '1% 100 PPM'
+PRP Manufacturer 'Stackpole Electronics Inc'
+PRP Manufacturer_P/N 'RNCP0805FTD180R'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) 'RNCP0805FTD180RCT-ND'
+PRP Supplier_P/N_(Tape_&_Reel) 'RNCP0805FTD180RTR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCP0805FTD180R/2240212'
+PRP Value '180R'
+TOP 0 1.8927165 3.2972441 90 N 9 3 1
+TOP 1 1.8927166 3.2283465 90 N 10 40 2
+#
+# CMP 14
+CMP 7 2.0742126 3.1181104 0 N U2 CP2102N-A02-GQFN28R ;0=1,1=0.0315,5=0
+PRP Datasheet 'https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf'
+PRP Info 'CP2102N-A02-GQFN28R'
+PRP Manufacturer 'Silicon Labs'
+PRP Manufacturer_P/N 'CP2102N-A02-GQFN28R'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '336-5890-1-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '336-5890-2-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/silicon-labs/CP2102N-A02-GQFN28R/9863480'
+PRP Value 'CP2102N-A02-GQFN28R'
+TOP 0 1.9826772 3.1771655 270 N 0 5 1
+TOP 1 1.9826772 3.1574804 270 N 0 4 2
+TOP 2 1.9826772 3.1377954 270 N 10 59 3
+TOP 3 1.9826772 3.1181104 270 N 22 1 4
+TOP 4 1.9826772 3.0984253 270 N 23 1 5
+TOP 5 1.9826772 3.0787403 270 N 26 10 6
+TOP 6 1.9826772 3.0590552 270 N 11 30 7
+TOP 7 2.0151575 3.0265749 0 N 15 8 8
+TOP 8 2.0348426 3.0265749 0 N 1 5 9
+TOP 9 2.0545276 3.0265749 0 N 0 3 10
+TOP 10 2.0742126 3.0265749 0 N 0 22 11
+TOP 11 2.0938977 3.0265749 0 N 0 21 12
+TOP 12 2.1135827 3.0265749 0 N 0 20 13
+TOP 13 2.1332678 3.0265749 0 N 0 25 14
+TOP 14 2.1657481 3.0590552 270 N 0 24 15
+TOP 15 2.1657481 3.0787403 270 N 0 23 16
+TOP 16 2.1657481 3.0984253 270 N 2 1 17
+TOP 17 2.1657481 3.1181104 270 N 0 19 18
+TOP 18 2.1657481 3.1377954 270 N 0 15 19
+TOP 19 2.1657481 3.1574804 270 N 0 14 20
+TOP 20 2.1657481 3.1771655 270 N 0 13 21
+TOP 21 2.1332678 3.2096458 0 N 0 18 22
+TOP 22 2.1135827 3.2096458 0 N 6 3 23
+TOP 23 2.0938977 3.2096458 0 N 14 11 24
+TOP 24 2.0742126 3.2096458 0 N 12 11 25
+TOP 25 2.0545276 3.2096458 0 N 13 7 26
+TOP 26 2.0348426 3.2096458 0 N 0 17 27
+TOP 27 2.0151575 3.2096458 0 N 21 8 28
+TOP 28 2.0742126 3.1181104 0 N 10 60 29
+#
+# CMP 15
+CMP 1 1.8011811 3.1200787 0 N T1 CMC_370MA_2LN_90OHM_SMD_AEC-Q200 ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.we-online.com/components/products/datasheet/744232090.pdf'
+PRP Info 'EMI Trafo'
+PRP Manufacturer 'Würth Elektronik'
+PRP Manufacturer_P/N '744232090'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '732-1469-1-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '732-1469-2-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/744232090/1638873?s=N4IgTCBcDaIOwGYwFoCMAWAbATmZ5AcgCIgC6AvkA'
+PRP Value 'CMC 370MA 2LN 90OHM SMD AEC-Q200'
+TOP 0 1.7480316 3.1003937 270 N 25 5 1
+TOP 1 1.8543306 3.1003937 270 N 23 0 2
+TOP 2 1.8543306 3.1397637 270 N 22 0 3
+TOP 3 1.7480316 3.1397637 270 N 24 7 4
+#
+# CMP 16
+CMP 8 2.2602363 3.1614174 90 N R10 10K ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf'
+PRP Info '1% 100PPM'
+PRP Manufacturer 'Stackpole Electronics Inc'
+PRP Manufacturer_P/N 'RMCF0805FT10K0'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) 'RMCF0805FT10K0CT-ND'
+PRP Supplier_P/N_(Tape_&_Reel) 'RMCF0805FT10K0TR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676'
+PRP Value '10K'
+TOP 0 2.2946851 3.1614174 180 N 16 2 1
+TOP 1 2.2257875 3.1614173 180 N 14 10 2
+#
+# CMP 17
+CMP 8 2.135 3.33 90 N R7 10K ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf'
+PRP Info '1% 100PPM'
+PRP Manufacturer 'Stackpole Electronics Inc'
+PRP Manufacturer_P/N 'RMCF0805FT10K0'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) 'RMCF0805FT10K0CT-ND'
+PRP Supplier_P/N_(Tape_&_Reel) 'RMCF0805FT10K0TR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676'
+PRP Value '10K'
+TOP 0 2.1694488 3.33 180 N 17 3 1
+TOP 1 2.1005512 3.3299999 180 N 21 10 2
+#
+# CMP 18
+CMP 8 1.54 3.26 180 N R6 5K1 ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf'
+PRP Info '1% 100 PPM'
+PRP Manufacturer 'YAGEO'
+PRP Manufacturer_P/N 'RC0805FR-075K1L'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '311-5.10KCRCT-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '311-5.10KCRTR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/yageo/RC0805FR-075K1L/727988'
+PRP Value '5K1'
+TOP 0 1.54 3.2255512 270 N 19 3 1
+TOP 1 1.5399999 3.2944488 270 N 10 57 2
+#
+# CMP 19
+CMP 8 1.465 2.819 270 N R5 5K1 ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf'
+PRP Info '1% 100 PPM'
+PRP Manufacturer 'YAGEO'
+PRP Manufacturer_P/N 'RC0805FR-075K1L'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '311-5.10KCRCT-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '311-5.10KCRTR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/yageo/RC0805FR-075K1L/727988'
+PRP Value '5K1'
+TOP 0 1.4305512 2.819 0 N 18 3 1
+TOP 1 1.4994488 2.8190001 0 N 10 42 2
+#
+# CMP 20
+CMP 8 1.9875985 2.8828741 90 N R4 48K7 ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf'
+PRP Info '1% 100 PPM'
+PRP Manufacturer 'YAGEO'
+PRP Manufacturer_P/N 'RC0805FR-0748K7L'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '311-48.7KCRCT-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '311-48.7KCRTR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/yageo/RC0805FR-0748K7L/727981'
+PRP Value '48K7'
+TOP 0 2.0220473 2.8828741 180 N 15 10 1
+TOP 1 1.9531497 2.882874 180 N 10 41 2
+#
+# CMP 21
+CMP 8 1.8700787 2.8287402 270 N R3 1K07 ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP Info '1% 100 PPM'
+PRP Manufacturer 'Vishay Dale'
+PRP Manufacturer_P/N 'CRCW08051K07FKEA'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '541-1.07KCCT-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '541-1.07KCTR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/vishay-dale/CRCW08051K07FKEA/1175640'
+PRP Value '1K07'
+TOP 0 1.8356299 2.8287402 0 N 26 14 1
+TOP 1 1.9045275 2.8287403 0 N 1 6 2
+#
+# CMP 22
+CMP 10 2.2641733 3.0511812 90 N Q2 BSS64LT1G ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.onsemi.com/pdf/datasheet/bss64lt1-d.pdf'
+PRP Info 'VCEsat max 200mV'
+PRP Manufacturer 'onsemi'
+PRP Manufacturer_P/N 'BSS64LT1G'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) 'BSS64LT1GOSCT-ND'
+PRP Supplier_P/N_(Tape_&_Reel) 'BSS64LT1GOSTR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/onsemi/BSS64LT1G/1476267?s=N4IgTCBcDaIEIGUEDYAsAZAKgRgOIgF0BfIA'
+PRP Value 'BSS64LT1G'
+TOP 0 2.2248032 3.0885828 90 N 16 1 1
+TOP 1 2.2248032 3.0137796 90 N 21 7 2
+TOP 2 2.3035434 3.0511812 90 N 27 2 3
+#
+# CMP 23
+CMP 10 2.2641733 3.2755907 90 N Q1 BSS64LT1G ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.onsemi.com/pdf/datasheet/bss64lt1-d.pdf'
+PRP Info 'VCEsat max 200mV'
+PRP Manufacturer 'onsemi'
+PRP Manufacturer_P/N 'BSS64LT1G'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) 'BSS64LT1GOSCT-ND'
+PRP Supplier_P/N_(Tape_&_Reel) 'BSS64LT1GOSTR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/onsemi/BSS64LT1G/1476267?s=N4IgTCBcDaIEIGUEDYAsAZAKgRgOIgF0BfIA'
+PRP Value 'BSS64LT1G'
+TOP 0 2.2248032 3.3129923 90 N 17 2 1
+TOP 1 2.2248032 3.2381891 90 N 14 9 2
+TOP 2 2.3035434 3.2755907 90 N 20 2 3
+#
+# CMP 24
+CMP 6 1.8120079 3.261811 90 N D1 Blue_Led_0805 ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.we-online.com/components/products/datasheet/150080BS75000.pdf'
+PRP Info 'Id = 0.5 Inom (10mA)'
+PRP Manufacturer 'Würth Elektronik'
+PRP Manufacturer_P/N '150080BS75000'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '732-4982-1-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '732-4982-2-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080BS75000/4489912'
+PRP Value 'Blue Led 0805'
+TOP 0 1.8120079 3.2268111 90 N 11 29 A
+TOP 1 1.8120079 3.2968109 90 N 9 2 K
+#
+# CMP 25
+CMP 3 1.6791339 2.8484252 0 N C6 0.1uF ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf'
+PRP Info 'MLCC'
+PRP Manufacturer 'Murata Electronics'
+PRP Manufacturer_P/N 'GCM21BR72A104KA37L'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '490-4789-1-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '490-4789-2-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663?s=N4IgTCBcDaICwE4AMBaOB2AHAlA2FAcgCIgC6AvkA'
+PRP Value '0.1uF'
+TOP 0 1.6791339 2.882874 90 N 26 12 1
+TOP 1 1.6791339 2.8139764 90 N 10 43 2
+#
+# CMP 26
+CMP 3 1.7608268 2.8474409 0 N C5 4,7uF ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD'
+PRP Info '25V 5% X7R'
+PRP Manufacturer 'KEMET'
+PRP Manufacturer_P/N 'C0805C475J3RACTU'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(CT) '399-C0805C475J3RACTUCT-ND'
+PRP Supplier_P/N_(TR) '399-C0805C475J3RACTUTR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com.br/pt/products/detail/kemet/C0805C475J3RACTU/12700961'
+PRP Value '4,7uF'
+TOP 0 1.7608268 2.8818897 90 N 26 11 1
+TOP 1 1.7608268 2.8129921 90 N 10 46 2
+#
+# CMP 27
+CMP 3 1.7913387 2.9724411 0 N C4 0.1uF ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM033R71A103KA03-01A.pdf'
+PRP Info 'MLCC'
+PRP Manufacturer 'Murata Electronics'
+PRP Manufacturer_P/N 'GCM21BR72A104KA37L'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) '490-4789-1-ND'
+PRP Supplier_P/N_(Tape_&_Reel) '490-4789-2-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/murata-electronics/GCM21BR72A104KA37L/1641663?s=N4IgTCBcDaICwE4AMBaOB2AHAlA2FAcgCIgC6AvkA'
+PRP Value '0.1uF'
+TOP 0 1.7913387 3.0068899 90 N 11 26 1
+TOP 1 1.7913387 2.9379923 90 N 10 39 2
+#
+# CMP 28
+CMP 3 1.8799213 2.9724411 0 N C3 4,7uF ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD'
+PRP Info '25V 5% X7R'
+PRP Manufacturer 'KEMET'
+PRP Manufacturer_P/N 'C0805C475J3RACTU'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(CT) '399-C0805C475J3RACTUCT-ND'
+PRP Supplier_P/N_(TR) '399-C0805C475J3RACTUTR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com.br/pt/products/detail/kemet/C0805C475J3RACTU/12700961'
+PRP Value '4,7uF'
+TOP 0 1.8799213 3.0068899 90 N 11 22 1
+TOP 1 1.8799213 2.9379923 90 N 10 45 2
+#
+# CMP 29
+CMP 9 1.5090394 3.0804579 90 N U1 USB_ESD_protection ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.diodes.com/assets/Datasheets/DRTR5V0U2SR.pdf'
+PRP Info 'ESD Protection Device'
+PRP Manufacturer 'Diodes Incorporated'
+PRP Manufacturer_P/N 'DRTR5V0U2SR-7'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(Cut_Tape) 'DRTR5V0U2SR-7DICT-ND'
+PRP Supplier_P/N_(Tape_&_Reel) 'DRTR5V0U2SR-7DITR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com/en/products/detail/diodes-incorporated/DRTR5V0U2SR-7/4402528'
+PRP Value 'USB ESD protection'
+TOP 0 1.5380394 3.1254578 90 N 10 51 1
+TOP 1 1.4710394 3.1254578 90 N 25 6 2
+TOP 2 1.4710394 3.0354578 90 N 24 8 3
+TOP 3 1.5470394 3.0354578 90 N 11 19 4
+#
+# CMP 30
+CMP 4 1.1909449 3.1003937 90 N J1 USB4105-GF-A-060 ;0=1,1=0.1303,5=0
+PRP Alias1 ''
+PRP Datasheet 'https://www.mouser.com/catalog/specsheets/Global_Connector_Technology_usb4105.pdf'
+PRP Info 'USB4105 - Type C USB 2.0 Connector'
+PRP Manufacturer 'Global Connector Technology'
+PRP Manufacturer_P/N 'USB4105-GF-A-060'
+PRP RefDes ''
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(CT) '2073-USB4105-GF-ACT-ND'
+PRP Supplier_P/N_(DR) '2073-USB4105-GF-ADKR-ND'
+PRP Supplier_P/N_(TR) '2073-USB4105-GF-ATR-ND'
+PRP Supplier_Web 'https://www.digikey.com.br/pt/products/detail/gct/USB4105-GF-A/11198441'
+PRP Value 'USB4105-GF-A-060'
+TOP 0 1.3781496 3.226378 90 N 10 49 A1_B12
+TOP 1 1.3781496 3.1948819 90 N 11 24 A4_B9
+TOP 2 1.3781496 3.1496063 90 N 19 2 A5
+TOP 3 1.3781496 3.1102362 90 N 24 5 A6
+TOP 4 1.3781496 3.0905512 90 N 25 3 A7
+TOP 5 1.3781496 3.0511811 90 N 0 0 A8
+TOP 6 1.3781496 2.9744094 90 N 10 47 B1_A12
+TOP 7 1.3781496 3.0059055 90 N 11 23 B4_A9
+TOP 8 1.3781496 3.0314961 90 N 18 2 B5
+TOP 9 1.3781496 3.0708661 90 N 24 6 B6
+TOP 10 1.3781496 3.1299213 90 N 25 4 B7
+TOP 11 1.3781496 3.1692913 90 N 0 1 B8
+TOP 12 1.3358268 3.2141732 90 N 0 7 empty-1
+TOP 13 1.3358268 2.9866142 90 N 0 12 empty-2
+TOP 14 1.3555118 3.2704724 0 N 0 10 SH1
+TOP 15 1.3555118 2.930315 0 N 0 11 SH2
+TOP 16 1.1909449 3.2704724 0 N 0 2 SH3
+TOP 17 1.1909449 2.930315 0 N 0 6 SH4
+#
+# CMP 31
+CMP 3 1.557 2.927 0 N C2 4,7uF ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD'
+PRP Info '25V 5% X7R'
+PRP Manufacturer 'KEMET'
+PRP Manufacturer_P/N 'C0805C475J3RACTU'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(CT) '399-C0805C475J3RACTUCT-ND'
+PRP Supplier_P/N_(TR) '399-C0805C475J3RACTUTR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com.br/pt/products/detail/kemet/C0805C475J3RACTU/12700961'
+PRP Value '4,7uF'
+TOP 0 1.557 2.9614488 90 N 11 21 1
+TOP 1 1.557 2.8925512 90 N 10 48 2
+#
+# CMP 32
+CMP 3 1.617945 3.260567 180 N C1 4,7uF ;0=1,1=0.0000,5=0
+PRP Datasheet 'https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD'
+PRP Info '25V 5% X7R'
+PRP Manufacturer 'KEMET'
+PRP Manufacturer_P/N 'C0805C475J3RACTU'
+PRP RefDes 'RefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N_(CT) '399-C0805C475J3RACTUCT-ND'
+PRP Supplier_P/N_(TR) '399-C0805C475J3RACTUTR-ND'
+PRP Supplier_Web_Page 'https://www.digikey.com.br/pt/products/detail/kemet/C0805C475J3RACTU/12700961'
+PRP Value '4,7uF'
+TOP 0 1.617945 3.2261182 270 N 11 18 1
+TOP 1 1.617945 3.2950158 270 N 10 44 2
+#

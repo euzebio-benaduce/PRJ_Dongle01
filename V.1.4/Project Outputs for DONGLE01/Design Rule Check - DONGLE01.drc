@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\PCB\PRJ_Dongle01\DONGLE01.PcbDoc
-Date     : 2025-11-04
-Time     : 22:05:30
+PCB File : C:\PCB\PRJ_Dongle01\V.1.4\DONGLE01.PcbDoc
+Date     : 2025-11-18
+Time     : 19:49:34
 
 Processing Rule : Clearance Constraint (Gap=6mil) (All),(not InAnyDifferentialPair)
 Rule Violations :0
@@ -28,6 +28,12 @@ Processing Rule : Routing Via (MinHoleWidth=7.874mil) (MaxHoleWidth=39.37mil) (P
 Rule Violations :0
 
 Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=4.506mil) (Max=4.506mil) (Prefered=4.506mil)  and Width Constraints (Min=9mil) (Max=9mil) (Prefered=9mil) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=4.506mil) (Max=4.506mil) (Prefered=4.506mil)  and Width Constraints (Min=9mil) (Max=9mil) (Prefered=9mil) (InNetClass('USBi'))
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=4.506mil) (Max=4.506mil) (Prefered=4.506mil)  and Width Constraints (Min=9mil) (Max=9mil) (Prefered=9mil) (InNetClass('USB'))
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
@@ -61,4 +67,4 @@ Rule Violations :0
 Violations Detected : 0
 Waived Violations : 0
 PCB Health Issues : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:00
