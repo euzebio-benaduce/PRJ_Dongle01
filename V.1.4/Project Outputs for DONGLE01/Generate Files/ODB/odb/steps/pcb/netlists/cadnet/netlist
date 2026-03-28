@@ -117,7 +117,6 @@ $27 VDD
 12 0.007874 3.06 3.193 B e e staggered 0 0 0 v
 12 0.008 1.6496063 3.0590551 B e e staggered 0 0 0 v
 12 0.008 1.7047244 3.0590551 B e e staggered 0 0 0 v
-12 0.008 2.817 3.187 B e e staggered 0 0 0 v
 12 0.008 3.2362205 3.3425197 B e e staggered 0 0 0 v
 12 0.008 3.2283465 3.2440945 B e e staggered 0 0 0 v
 12 0.008 3.2283465 3.1417323 B e e staggered 0 0 0 v
@@ -172,6 +171,8 @@ $27 VDD
 12 0.003937 1.4763779 2.9330708 B e e staggered 0 0 0 v
 12 0.007874 3.045 2.995 B e e staggered 0 0 0 v
 12 0.007874 1.54 3.335 B e e staggered 0 0 0 v
+12 0.008 2.798 3.199 B e e staggered 0 0 0 v
+12 0.008 2.404 3.15 B e e staggered 0 0 0 v
 13 0.002 1.8120079 3.2968109 T e e staggered 0 0 0
 13 0.002 1.8927165 3.2972441 T e e staggered 0 0 0
 14 0.002 1.3781496 3.1496063 T e e staggered 0 0 0
@@ -207,13 +208,13 @@ $27 VDD
 23 0.0216536 3.1581103 3.1405513 B e e staggered 0 0 0
 23 0.007874 2.43 3.207 B e e staggered 0 0 0 v
 23 0.007874 2.679 3.102 B e e staggered 0 0 0 v
-23 0.007874 2.8500856 3.1405513 B e e staggered 0 0 0 v
 23 0.007874 2.0729902 3.2682002 B e e staggered 0 0 0 v
+23 0.007874 2.906 3.12 B e e staggered 0 0 0 v
 24 0.002 2.0545276 3.2096458 T e e staggered 0 0 0
 24 0.002 2.9086614 3.2324016 T e e staggered 0 0 0
 24 0.0216536 3.1581103 3.2405513 B e e staggered 0 0 0
 24 0.007874 2.039 3.268 B e e staggered 0 0 0 v
-24 0.007874 2.844 3.232 B e e staggered 0 0 0 v
+24 0.007874 2.908 3.271 B e e staggered 0 0 0 v
 25 0.002 1.8799213 3.0068899 T e e staggered 0 0 0
 25 0.002 1.3781496 3.0059055 T e e staggered 0 0 0
 25 0.002 1.3781496 3.1948819 T e e staggered 0 0 0
