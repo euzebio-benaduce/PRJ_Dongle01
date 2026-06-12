@@ -4,9 +4,9 @@ C:\PCB\PRJ_Dongle01\V.1.4\Project Outputs for DONGLE01\Generate Files\Pick Place
 ========================================================================================================================
 File Design Information:
 
-Date:       23-02-26
-Time:       13:51
-Revision:   a7742e7279db2da019da5feeddfb5f294ea36138
+Date:       12-06-26
+Time:       14:13
+Revision:   5350673842f51fd729cad4ab1265e770c458b12f
 Variant:    No variations
 Units used: mm
 

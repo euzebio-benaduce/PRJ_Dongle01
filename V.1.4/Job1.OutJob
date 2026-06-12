@@ -17,13 +17,13 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Job1.OutJob
 Description=
-TargetOutputMedium=PDF
+TargetOutputMedium=MS PDF Printer
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputMedium1=Print Job
+OutputMedium1=MS PDF Printer
 OutputMedium1_Type=Printer
 OutputMedium1_Printer=Microsoft Print to PDF
 OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
@@ -33,6 +33,10 @@ OutputMedium3=Folder Structure
 OutputMedium3_Type=GeneratedFiles
 OutputMedium4=Video
 OutputMedium4_Type=Multimedia
+OutputMedium5=JPEG Printer
+OutputMedium5_Type=Printer
+OutputMedium5_Printer=clawPDF
+OutputMedium5_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=NC Drill
 OutputName1=NC Drill Files
 OutputCategory1=Fabrication
@@ -43,6 +47,7 @@ OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=8
 OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium5=0
 OutputDefault1=0
 Configuration1_Name1=OutputConfigurationParameter1
 Configuration1_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\DockVision\DK23-V1-PLC\PcbDoc\DK23-V1-PLC.PcbDoc
@@ -53,9 +58,10 @@ OutputDocumentPath2=
 OutputVariantName2=
 OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
-OutputEnabled2_OutputMedium2=0
+OutputEnabled2_OutputMedium2=1
 OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration2_Name1=OutputConfigurationParameter1
@@ -70,6 +76,7 @@ OutputEnabled3_OutputMedium1=0
 OutputEnabled3_OutputMedium2=0
 OutputEnabled3_OutputMedium3=9
 OutputEnabled3_OutputMedium4=0
+OutputEnabled3_OutputMedium5=0
 OutputDefault3=0
 Configuration3_Name1=OutputConfigurationParameter1
 Configuration3_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=False|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:Ascending,SortIndex:0,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Application,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16,Type:0|Column#18=Name:Supplier P/N,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55,Type:0|Column#19=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25,Type:0|Column#20=Name:Check_prices,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|Column#21=Name:Pitch,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50,Type:0|Column#22=Name:Manufacturer P/N,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37,Type:0|Column#23=Name:Collector Emitter Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#24=Name:Forward Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29,Type:0|Column#25=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36,Type:0|Column#26=Name:Current Transfer Ratio Min,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28,Type:0|Column#27=Name:HelpURL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32,Type:0|Column#28=Name:P/N,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47,Type:0|Column#29=Name:Orientation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46,Type:0|Column#30=Name:Length,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35,Type:0|Column#31=Name:SnapEDA_Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53,Type:0|Column#32=Name:Modularity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39,Type:0|Column#33=Name:Number of Rows,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43,Type:0|Column#34=Name:Category,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19,Type:0|Column#35=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24,Type:0|Column#36=Name:Mount,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40,Type:0|Column#37=Name:Supplier,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54,Type:0|Column#38=Name:Current Transfer Ratio Max,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27,Type:0|Column#39=Name:Input,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33,Type:0|Column#40=Name:Packaging,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49,Type:0|Column#41=Name:URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58,Type:0|Column#42=Name:Isolation Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34,Type:0|Column#43=Name:Number of Pins,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42,Type:0|Column#44=Name:Number of Channels,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41,Type:0|Column#45=Name:Text,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56,Type:0|Column#46=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|Column#47=Name:Rated Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52,Type:0|Column#48=Name:UrlHelper,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59,Type:0|Column#49=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48,Type:0|Column#50=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60,Type:0|Column#51=Name:Match Code,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38,Type:0|Column#52=Name:Width,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61,Type:0|Column#53=Name:Operating Temperature Max,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44,Type:0|Column#54=Name:CUI_purchase_URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26,Type:0|Column#55=Name:Operating Temperature Min,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45,Type:0|Column#56=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#57=Name:Help Url,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31,Type:0|Column#58=Name:Unit Price,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57,Type:0|Column#59=Name:Availability,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#60=Name:Case/Size Code,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18,Type:0|Column#61=Name:Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30,Type:0|Column#62=Name:Price,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51,Type:0|DocumentPath=C:\DockVision\DK23-V1-PLC\PcbDoc\DK23-V1-PLC.PcbDoc
@@ -83,6 +90,7 @@ OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=7
 OutputEnabled4_OutputMedium4=0
+OutputEnabled4_OutputMedium5=0
 OutputDefault4=0
 Configuration4_Name1=OutputConfigurationParameter1
 Configuration4_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=POPVTCBH|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=False|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908289~1,16908290~1,16908291~1,16908292~1,16908293~1,16908295~1,16908301~1,16908303~1,16908304~1,16973848~1,16973849~1|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=C:\#PCB#\#DONGLE01\DONGLE01.PcbDoc
@@ -96,6 +104,7 @@ OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=12
 OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=0
 OutputDefault5=0
 Configuration5_Name1=OutputConfigurationParameter1
 Configuration5_Item1=NetlistVersion=0|Record=EdifView|DocumentPath=[Project]
@@ -105,10 +114,11 @@ OutputCategory6=Assembly
 OutputDocumentPath6=
 OutputVariantName6=
 OutputEnabled6=0
-OutputEnabled6_OutputMedium1=4
-OutputEnabled6_OutputMedium2=0
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=7
 OutputEnabled6_OutputMedium3=0
 OutputEnabled6_OutputMedium4=0
+OutputEnabled6_OutputMedium5=0
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=1|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PrintScaleName=PrintFitPageWidth|PaperKind=A4|PaperIndex=9
 Configuration6_Name1=OutputConfigurationParameter1
@@ -134,12 +144,13 @@ OutputCategory7=Fabrication
 OutputDocumentPath7=
 OutputVariantName7=
 OutputEnabled7=0
-OutputEnabled7_OutputMedium1=5
-OutputEnabled7_OutputMedium2=0
+OutputEnabled7_OutputMedium1=0
+OutputEnabled7_OutputMedium2=8
 OutputEnabled7_OutputMedium3=0
 OutputEnabled7_OutputMedium4=0
+OutputEnabled7_OutputMedium5=0
 OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=5.13|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=4.94|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration7_Name1=OutputConfigurationParameter1
 Configuration7_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\#PCB#\#DONGLE01\DONGLE01.PcbDoc
 Configuration7_Name2=OutputConfigurationParameter2
@@ -217,10 +228,11 @@ OutputCategory8=Report
 OutputDocumentPath8=
 OutputVariantName8=
 OutputEnabled8=0
-OutputEnabled8_OutputMedium1=6
-OutputEnabled8_OutputMedium2=0
+OutputEnabled8_OutputMedium1=0
+OutputEnabled8_OutputMedium2=9
 OutputEnabled8_OutputMedium3=1
 OutputEnabled8_OutputMedium4=0
+OutputEnabled8_OutputMedium5=0
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PrintScaleName=PrintFitPageWidth|PaperKind=A4|PaperIndex=9
 Configuration8_Name1=ColumnNameFormat
@@ -241,10 +253,11 @@ OutputCategory9=Validation
 OutputDocumentPath9=
 OutputVariantName9=
 OutputEnabled9=0
-OutputEnabled9_OutputMedium1=7
-OutputEnabled9_OutputMedium2=0
+OutputEnabled9_OutputMedium1=0
+OutputEnabled9_OutputMedium2=11
 OutputEnabled9_OutputMedium3=6
 OutputEnabled9_OutputMedium4=0
+OutputEnabled9_OutputMedium5=0
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration9_Name1=OutputConfigurationParameter1
@@ -255,10 +268,11 @@ OutputCategory10=Validation
 OutputDocumentPath10=
 OutputVariantName10=
 OutputEnabled10=0
-OutputEnabled10_OutputMedium1=8
-OutputEnabled10_OutputMedium2=0
+OutputEnabled10_OutputMedium1=0
+OutputEnabled10_OutputMedium2=12
 OutputEnabled10_OutputMedium3=5
 OutputEnabled10_OutputMedium4=0
+OutputEnabled10_OutputMedium5=0
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration10_Name1=OutputConfigurationParameter1
@@ -273,6 +287,7 @@ OutputEnabled11_OutputMedium1=0
 OutputEnabled11_OutputMedium2=0
 OutputEnabled11_OutputMedium3=4
 OutputEnabled11_OutputMedium4=0
+OutputEnabled11_OutputMedium5=0
 OutputDefault11=0
 Configuration11_Name1=OutputConfigurationParameter1
 Configuration11_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ExportFoldedBoard=True|ExportFoldedBoardRate=49|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\DockVision\DK23-V1-PLC\PcbDoc\DK23-V1-PLC.PcbDoc
@@ -286,6 +301,7 @@ OutputEnabled12_OutputMedium1=0
 OutputEnabled12_OutputMedium2=0
 OutputEnabled12_OutputMedium3=3
 OutputEnabled12_OutputMedium4=0
+OutputEnabled12_OutputMedium5=0
 OutputDefault12=0
 Configuration12_Name1=OutputConfigurationParameter1
 Configuration12_Item1=Record=ExportDXFView|ACadVersion=60|UseRoundedTracks=True|Components=0|HoleMode=1|Units=0|OutputFormat=0|ZeroWidthLines=0|LayersHash= |OnlyVisibleLayers=False|UsePolylines=False|DocumentPath=C:\DockVision\DK23-V1-PLC\PcbDoc\DK23-V1-PLC.PcbDoc
@@ -295,10 +311,11 @@ OutputCategory13=Documentation
 OutputDocumentPath13=Assembly.PCBDwf
 OutputVariantName13=
 OutputEnabled13=0
-OutputEnabled13_OutputMedium1=1
-OutputEnabled13_OutputMedium2=0
+OutputEnabled13_OutputMedium1=0
+OutputEnabled13_OutputMedium2=2
 OutputEnabled13_OutputMedium3=0
 OutputEnabled13_OutputMedium4=0
+OutputEnabled13_OutputMedium5=0
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType14=PCBDrawing
@@ -307,10 +324,11 @@ OutputCategory14=Documentation
 OutputDocumentPath14=Fabrication.PCBDwf
 OutputVariantName14=
 OutputEnabled14=0
-OutputEnabled14_OutputMedium1=2
-OutputEnabled14_OutputMedium2=0
+OutputEnabled14_OutputMedium1=0
+OutputEnabled14_OutputMedium2=3
 OutputEnabled14_OutputMedium3=0
 OutputEnabled14_OutputMedium4=0
+OutputEnabled14_OutputMedium5=0
 OutputDefault14=0
 PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType15=Schematic Print
@@ -319,10 +337,11 @@ OutputCategory15=Documentation
 OutputDocumentPath15=[Project Physical Documents]
 OutputVariantName15=
 OutputEnabled15=0
-OutputEnabled15_OutputMedium1=3
-OutputEnabled15_OutputMedium2=0
+OutputEnabled15_OutputMedium1=0
+OutputEnabled15_OutputMedium2=4
 OutputEnabled15_OutputMedium3=0
 OutputEnabled15_OutputMedium4=0
+OutputEnabled15_OutputMedium5=0
 OutputDefault15=0
 PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration15_Name1=OutputConfigurationParameter1
@@ -334,9 +353,10 @@ OutputDocumentPath16=
 OutputVariantName16=
 OutputEnabled16=0
 OutputEnabled16_OutputMedium1=0
-OutputEnabled16_OutputMedium2=0
+OutputEnabled16_OutputMedium2=5
 OutputEnabled16_OutputMedium3=11
 OutputEnabled16_OutputMedium4=0
+OutputEnabled16_OutputMedium5=0
 OutputDefault16=0
 PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=5.30|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration16_Name1=OutputConfigurationParameter1
@@ -348,9 +368,10 @@ OutputDocumentPath17=
 OutputVariantName17=
 OutputEnabled17=0
 OutputEnabled17_OutputMedium1=0
-OutputEnabled17_OutputMedium2=0
+OutputEnabled17_OutputMedium2=6
 OutputEnabled17_OutputMedium3=10
 OutputEnabled17_OutputMedium4=0
+OutputEnabled17_OutputMedium5=0
 OutputDefault17=0
 PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=5.30|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration17_Name1=OutputConfigurationParameter1
@@ -362,9 +383,10 @@ OutputDocumentPath18=
 OutputVariantName18=
 OutputEnabled18=0
 OutputEnabled18_OutputMedium1=0
-OutputEnabled18_OutputMedium2=0
+OutputEnabled18_OutputMedium2=10
 OutputEnabled18_OutputMedium3=2
 OutputEnabled18_OutputMedium4=0
+OutputEnabled18_OutputMedium5=0
 OutputDefault18=0
 PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration18_Name1=ColumnNameFormat
@@ -389,6 +411,7 @@ OutputEnabled19_OutputMedium1=0
 OutputEnabled19_OutputMedium2=0
 OutputEnabled19_OutputMedium3=13
 OutputEnabled19_OutputMedium4=0
+OutputEnabled19_OutputMedium5=0
 OutputDefault19=0
 Configuration19_Name1=OutputConfigurationParameter1
 Configuration19_Item1=Compression_None=True|Compression_tar_tgz=True|Compression_zip=True|DifferentFootprints=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|IncludeVariantsData=False|IntentionalShorts=False|MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPair0_Plot=True|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePair0_Plot=True|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=False|PlotMechanical10Plot=True|PlotMechanical11Plot=False|PlotMechanical12Plot=True|PlotMechanical13Plot=True|PlotMechanical14Plot=False|PlotMechanical15Plot=True|PlotMechanical16Plot=True|PlotMechanical1Plot=False|PlotMechanical2Plot=True|PlotMechanical3Plot=True|PlotMechanical4Plot=False|PlotMechanical5Plot=True|PlotMechanical6Plot=True|PlotMechanical7Plot=True|PlotMechanical8Plot=True|PlotMechanical9Plot=False|PlotMicroViasPairs=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPair0_Plot=True|PlotNPTHPairs=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPair0_Plot=True|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|Record=ODBView|ToolsByDrillSymbols=False|Units=Metric|Version=8.1|DocumentPath=C:\PCB\PRJ_Dongle01\V.1.4\DONGLE01.PcbDoc
@@ -402,6 +425,7 @@ OutputEnabled20_OutputMedium1=0
 OutputEnabled20_OutputMedium2=0
 OutputEnabled20_OutputMedium3=14
 OutputEnabled20_OutputMedium4=0
+OutputEnabled20_OutputMedium5=0
 OutputDefault20=0
 Configuration20_Name1=OutputConfigurationParameter1
 Configuration20_Item1=Compression_None=True|Compression_tar_tgz=True|Compression_zip=True|DifferentFootprints=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|IncludeVariantsData=False|IntentionalShorts=False|MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=-1000|ODBProfileLayerV7=-1|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPair0_Plot=True|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePair0_Plot=True|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=False|PlotInternalPlane2Plot=False|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=False|PlotMechanical10Plot=True|PlotMechanical11Plot=False|PlotMechanical12Plot=True|PlotMechanical13Plot=True|PlotMechanical14Plot=False|PlotMechanical15Plot=True|PlotMechanical16Plot=True|PlotMechanical1Plot=False|PlotMechanical2Plot=True|PlotMechanical3Plot=True|PlotMechanical4Plot=False|PlotMechanical5Plot=True|PlotMechanical6Plot=True|PlotMechanical7Plot=True|PlotMechanical8Plot=True|PlotMechanical9Plot=False|PlotMicroViasPairs=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPair0_Plot=True|PlotNPTHPairs=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPair0_Plot=True|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|Record=ODBView|ToolsByDrillSymbols=False|Units=Imperial|Version=8.1|DocumentPath=C:\PCB\PRJ_Dongle01\V.1.4\DONGLE01.PcbDoc

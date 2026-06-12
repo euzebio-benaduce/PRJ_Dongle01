@@ -68,7 +68,7 @@ PRP Supplier_P/N_(Cut_Tape) ''
 PRP Supplier_P/N_(Tape_&_Reel) ''
 PRP Supplier_Web_Page ''
 PRP Value ''
-TOP 0 1.895 2.825 180 N 1 8 1
+TOP 0 1.895 2.825 180 N 1 9 1
 #
 # CMP 4
 CMP 12 1.578 2.897 0 N TP5 empty_part_name ;0=1,1=0.0000,5=0
@@ -124,5 +124,5 @@ PRP Supplier_P/N_(Cut_Tape) ''
 PRP Supplier_P/N_(Tape_&_Reel) ''
 PRP Supplier_Web_Page ''
 PRP Value ''
-TOP 0 2.297 3.297 180 N 21 10 1
+TOP 0 2.297 3.297 180 N 21 11 1
 #
