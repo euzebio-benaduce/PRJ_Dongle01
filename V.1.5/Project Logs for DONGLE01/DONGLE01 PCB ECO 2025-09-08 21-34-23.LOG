@@ -1,0 +1,4 @@
+Change Net Name : Old Net Name=#RST New Net Name=RESET_N
+Change Net Name : Old Net Name=CP2102VDD New Net Name=VDD
+Change Net Name : Old Net Name=USENSE New Net Name=VBUS_SENSE
+Added Rule: Name=Schematic Supply Nets_3

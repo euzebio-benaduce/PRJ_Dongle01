@@ -1,0 +1,15 @@
+Added Component: Designator=JP2(JMP-3-PTH-180)
+Add component (AddParameter): Name = "Datasheet"; Value = "https://www.we-online.com/components/products/datasheet/61300311121.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Info"; Value = "0.1" Pin header 1x3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Würth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "61300311121"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N (Cut Tape)"; Value = "732-5316-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N (Tape & Reel)"; Value = "732-5316-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Web Page"; Value = "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300311121/4846825"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Header 3 Pin"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BOOT Pin=JP2-1
+Added Pin To Net: NetName=BOOT.CTS Pin=JP2-2
+Added Pin To Net: NetName=CTS Pin=JP2-3
+Added Member To Class: ClassName=DONGLE01 Member=Component JP2 Header 3 Pin

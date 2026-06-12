@@ -1,0 +1,128 @@
+UNITS=INCH
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+@2 .no_pop
+@3 .comp_ignore
+@4 .comp_variant_list
+@5 .placement_layer
+
+#
+#Component attribute text strings
+#
+&0 bottom
+
+# CMP 0
+CMP 13 2.7401575 3.1062992 0 N TP8 empty_part_name ;0=1,1=0.0000,5=0
+PRP Datasheet ''
+PRP Info ''
+PRP Manufacturer ''
+PRP Manufacturer_P/N ''
+PRP RefDes 'rRefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N ''
+PRP Supplier_P/N_(CT) ''
+PRP Supplier_Web ''
+PRP Value ''
+TOP 0 2.7401575 3.1062992 180 N 18 14 1
+#
+# CMP 1
+CMP 13 1.667 3.336 0 N TP7 empty_part_name ;0=1,1=0.0000,5=0
+PRP Datasheet ''
+PRP Info ''
+PRP Manufacturer ''
+PRP Manufacturer_P/N ''
+PRP RefDes 'rRefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N ''
+PRP Supplier_P/N_(CT) ''
+PRP Supplier_Web ''
+PRP Value ''
+TOP 0 1.667 3.336 180 N 14 56 1
+#
+# CMP 2
+CMP 13 2.3522446 3.025 0 N TP1 empty_part_name ;0=1,1=0.0000,5=0
+PRP Datasheet ''
+PRP Info ''
+PRP Manufacturer ''
+PRP Manufacturer_P/N ''
+PRP RefDes 'rRefDes'
+PRP Supplier 'Digikey'
+PRP Supplier_P/N ''
+PRP Supplier_P/N_(CT) ''
+PRP Supplier_Web ''
+PRP Value ''
+TOP 0 2.3522446 3.025 180 N 15 33 1
+#
+# CMP 3
+CMP 13 1.895 2.825 0 N TP6 empty_part_name ;0=1,1=0.0000,5=0
+PRP Datasheet ''
+PRP Info ''
+PRP Manufacturer ''
+PRP Manufacturer_P/N ''
+PRP RefDes 'RefDes'
+PRP Supplier ''
+PRP Supplier_P/N_(Cut_Tape) ''
+PRP Supplier_P/N_(Tape_&_Reel) ''
+PRP Supplier_Web_Page ''
+PRP Value ''
+TOP 0 1.895 2.825 180 N 5 7 1
+#
+# CMP 4
+CMP 13 1.578 2.897 0 N TP5 empty_part_name ;0=1,1=0.0000,5=0
+PRP Datasheet ''
+PRP Info ''
+PRP Manufacturer ''
+PRP Manufacturer_P/N ''
+PRP RefDes 'RefDes'
+PRP Supplier ''
+PRP Supplier_P/N_(Cut_Tape) ''
+PRP Supplier_P/N_(Tape_&_Reel) ''
+PRP Supplier_Web_Page ''
+PRP Value ''
+TOP 0 1.578 2.897 180 N 30 13 1
+#
+# CMP 5
+CMP 13 1.9895 2.9108266 0 N TP4 empty_part_name ;0=1,1=0.0000,5=0
+PRP Datasheet ''
+PRP Info ''
+PRP Manufacturer ''
+PRP Manufacturer_P/N ''
+PRP RefDes 'RefDes'
+PRP Supplier ''
+PRP Supplier_P/N_(Cut_Tape) ''
+PRP Supplier_P/N_(Tape_&_Reel) ''
+PRP Supplier_Web_Page ''
+PRP Value ''
+TOP 0 1.9895 2.9108266 180 N 19 9 1
+#
+# CMP 6
+CMP 13 2.355 2.825 0 N TP3 empty_part_name ;0=1,1=0.0000,5=0
+PRP Datasheet ''
+PRP Info ''
+PRP Manufacturer ''
+PRP Manufacturer_P/N ''
+PRP RefDes 'RefDes'
+PRP Supplier ''
+PRP Supplier_P/N_(Cut_Tape) ''
+PRP Supplier_P/N_(Tape_&_Reel) ''
+PRP Supplier_Web_Page ''
+PRP Value ''
+TOP 0 2.355 2.825 180 N 12 7 1
+#
+# CMP 7
+CMP 13 2.297 3.297 0 N TP2 empty_part_name ;0=1,1=0.0000,5=0
+PRP Datasheet ''
+PRP Info ''
+PRP Manufacturer ''
+PRP Manufacturer_P/N ''
+PRP RefDes 'RefDes'
+PRP Supplier ''
+PRP Supplier_P/N_(Cut_Tape) ''
+PRP Supplier_P/N_(Tape_&_Reel) ''
+PRP Supplier_Web_Page ''
+PRP Value ''
+TOP 0 2.297 3.297 180 N 25 8 1
+#

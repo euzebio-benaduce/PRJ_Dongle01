@@ -1,0 +1,80 @@
+Added Component: Designator=LD1(LED 0805)
+Add component (AddParameter): Name = "Alias1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Info"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "rRefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N (CT)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N (TR)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Web"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "RED"; VariantName = "[No Variations]"
+Added Component: Designator=LD2(LED 0805)
+Add component (AddParameter): Name = "Alias1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Info"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "rRefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N (CT)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N (TR)"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Web"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "GREEN"; VariantName = "[No Variations]"
+Added Component: Designator=R8(R0805)
+Add component (AddParameter): Name = "Datasheet"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Info"; Value = "1% 100PPM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N (Cut Tape)"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N (Tape & Reel)"; Value = "RMCF0805FT10K0TR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Web Page"; Value = "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220R"; VariantName = "[No Variations]"
+Added Component: Designator=R9(R0805)
+Add component (AddParameter): Name = "Datasheet"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Info"; Value = "1% 100PPM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N (Cut Tape)"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N (Tape & Reel)"; Value = "RMCF0805FT10K0TR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Web Page"; Value = "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "220R"; VariantName = "[No Variations]"
+Added Component: Designator=R11(R0805)
+Add component (AddParameter): Name = "Datasheet"; Value = "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Info"; Value = "1% 100PPM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Stackpole Electronics Inc"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer P/N"; Value = "RMCF0805FT10K0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N (Cut Tape)"; Value = "RMCF0805FT10K0CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier P/N (Tape & Reel)"; Value = "RMCF0805FT10K0TR-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Web Page"; Value = "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805FT10K0/1760676"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBUS Pin=R8-1
+Added Pin To Net: NetName=VBUS Pin=R9-1
+Added Pin To Net: NetName=TXD Pin=R11-1
+Added Pin To Net: NetName=GND Pin=R11-2
+Added Pin To Net: NetName=NetLD1_A Pin=LD1-A
+Added Pin To Net: NetName=NetLD1_A Pin=R8-2
+Added Net: Name=NetLD1_A
+Added Pin To Net: NetName=NetLD2_A Pin=LD2-A
+Added Pin To Net: NetName=NetLD2_A Pin=R9-2
+Added Net: Name=NetLD2_A
+Added Pin To Net: NetName=RXLED Pin=LD2-K
+Added Pin To Net: NetName=RXLED Pin=U2-18
+Added Net: Name=RXLED
+Added Pin To Net: NetName=TXLED Pin=LD1-K
+Added Pin To Net: NetName=TXLED Pin=U2-19
+Added Net: Name=TXLED
+Added Member To Class: ClassName=DONGLE01 Member=Component LD1 RED
+Added Member To Class: ClassName=DONGLE01 Member=Component LD2 GREEN
+Added Member To Class: ClassName=DONGLE01 Member=Component R8 220R
+Added Member To Class: ClassName=DONGLE01 Member=Component R9 220R
+Added Member To Class: ClassName=DONGLE01 Member=Component R11 10K

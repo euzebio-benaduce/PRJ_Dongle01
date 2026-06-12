@@ -1,0 +1,28 @@
+Removed Pin From Net: NetName=GND Pin=J1-A1
+Removed Pin From Net: NetName=VBUS Pin=J1-A4
+Removed Pin From Net: NetName=VBUS Pin=J1-A9
+Removed Pin From Net: NetName=GND Pin=J1-A12
+Removed Pin From Net: NetName=GND Pin=J1-B1
+Removed Pin From Net: NetName=VBUS Pin=J1-B4
+Removed Pin From Net: NetName=VBUS Pin=J1-B9
+Removed Pin From Net: NetName=GND Pin=J1-B12
+Change Component Footprint: Designator=J1 Old Footprint=AMPHENOL_12401598E4#2A New Footprint=GCT_USB4105-GF-A-060
+Change Component Comment : Designator=C1 Old Comment=47uF New Comment=4,7uF
+Change Component Comment : Designator=C2 Old Comment=47uF New Comment=4,7uF
+Change Component Comment : Designator=J1 Old Comment=12401598E4#2A New Comment=USB4105-GF-A-060
+Added Pin To Net: NetName=GND Pin=J1-A1_B12
+Added Pin To Net: NetName=VBUS Pin=J1-A4_B9
+Added Pin To Net: NetName=GND Pin=J1-B1_A12
+Added Pin To Net: NetName=VBUS Pin=J1-B4_A9
+Change Net Color : Old Net Color=Aqua New Net Color=Default
+Change Net Color : Old Net Color=Aqua New Net Color=Default
+Change Net Color : Old Net Color=Aqua New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 153, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 153, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(116, 27, 71) New Net Color=Default
+Change Net Color : Old Net Color=Red New Net Color=Default
+Change Net Color : Old Net Color=RGB(56, 118, 29) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 153, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(255, 153, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(153, 0, 255) New Net Color=Default
+Change Net Color : Old Net Color=Lime New Net Color=Default

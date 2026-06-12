@@ -1,0 +1,26 @@
+Change Component Comment : Designator=R2 Old Comment=21K New Comment=22K1
+Change Component Comment : Designator=R4 Old Comment=48K7 New Comment=47K5
+Change Component Description : Designator=R2 Old Description=21 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film New Description=
+Change Component Description : Designator=R4 Old Description=48.7 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film New Description=47.5 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film
+Change component parameters: Designator = "R2" ("R2"); Footprint = "R0805"; UniqueID = "\IVVORZTH" ("\IVVORZTH")
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Info"; Value = "1% 100 PPM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "CR0805-FX-2212ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N (Cut Tape)"; Value = "CR0805-FX-2212ELFCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N (Tape & Reel)"; Value = "CR0805-FX-2212ELFTR-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Web Page"; Value = "https://www.digikey.com/en/products/detail/bourns-inc/CR0805-FX-2212ELF/3784757"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22K1"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R4"); Footprint = "R0805"; UniqueID = "\HNQOXERL" ("\HNQOXERL")
+Change component parameters (AddParameter): Name = "Datasheet"; Value = "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Info"; Value = "1% 100 PPM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Bourns Inc."; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer P/N"; Value = "CR0805-FX-4752ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N (Cut Tape)"; Value = "118-CR0805-FX-4752ELFCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier P/N (Tape & Reel)"; Value = "118-CR0805-FX-4752ELFTR-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Web Page"; Value = "https://www.digikey.com/en/products/detail/bourns-inc/CR0805-FX-4752ELF/3784977"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "47K5"; VariantName = "[No Variations]"
